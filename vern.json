@@ -1,0 +1,22 @@
+{
+    "version": "2.3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jdonohoo/vern-bot/releases/download/v2.3.0/vern_windows_amd64.zip",
+            "bin": [
+                "vern.exe"
+            ],
+            "hash": "3e59bf8fa971dadcb86e55941d27e9486757e28810023e0200d60a83fe4b6f18"
+        },
+        "arm64": {
+            "url": "https://github.com/jdonohoo/vern-bot/releases/download/v2.3.0/vern_windows_arm64.zip",
+            "bin": [
+                "vern.exe"
+            ],
+            "hash": "3b10faa6f71817dbb93f0d4f51e397be4671ce55258e0e5e2f612a59f4ff9fbb"
+        }
+    },
+    "homepage": "https://jdonohoo.github.io/vern-bot/",
+    "license": "MIT",
+    "description": "16 AI personas, multi-LLM discovery pipelines, and VernHole councils. One idea in, battle-tested plan out."
+}
