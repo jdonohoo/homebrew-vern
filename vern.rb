@@ -10,7 +10,7 @@ class Vern < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/jdonohoo/vern-bot/releases/download/v2.4.1/vern_darwin_amd64.tar.gz"
-      sha256 "070fe73379fd5f5d301cb0577abcf0ac3ed18e6e351c1134fcc128d647a7a809"
+      sha256 "6c41d96112150f37e977f492ec96e4141324a20ceeff06c48fc53f43af86f4bc"
 
       def install
         bin.install "vern"
@@ -18,7 +18,7 @@ class Vern < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/jdonohoo/vern-bot/releases/download/v2.4.1/vern_darwin_arm64.tar.gz"
-      sha256 "71663ddc3b82214a7e77667341757ee55c898e1c65d60ff9cfd9884fe13fafef"
+      sha256 "c642af8a2b063a78f461ef8802d9242e7f4d146cb6a289b2830c5b9b38bf7538"
 
       def install
         bin.install "vern"
@@ -29,14 +29,14 @@ class Vern < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/jdonohoo/vern-bot/releases/download/v2.4.1/vern_linux_amd64.tar.gz"
-      sha256 "0d7a215b25aad485cf320560c1649faf9bc20b186385e61a29e40f7dfe483760"
+      sha256 "2dc14c616c6cacf47b3f53211736a532d36f27a6d712ba607fba046f602f004f"
       def install
         bin.install "vern"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/jdonohoo/vern-bot/releases/download/v2.4.1/vern_linux_arm64.tar.gz"
-      sha256 "2a61178952c8d4456ea6bbb3abefa8195449cd9ec663c5857327090900da9659"
+      sha256 "c33c9d4733a7f9288cee0e9cc0ef152591ccc71db8748eb1bdd669fe607b1950"
       def install
         bin.install "vern"
       end
