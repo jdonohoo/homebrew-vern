@@ -6,14 +6,14 @@
             "bin": [
                 "vern.exe"
             ],
-            "hash": "de2280d84191b71d9c9ebe8ff3ad7e1b52f7e7b9d88eac026de7a2fa0343425e"
+            "hash": "5e900a786c9f8f0d5bce52f29272ba742f9f4cd84e24bb0f5a2a8b180301f9a7"
         },
         "arm64": {
             "url": "https://github.com/jdonohoo/vern-bot/releases/download/v2.4.1/vern_windows_arm64.zip",
             "bin": [
                 "vern.exe"
             ],
-            "hash": "0c56c49ecfb1b288874d9eefa4f6982cf28e30866833abdf09c5f02b8410cd17"
+            "hash": "72a7eeaa1be19024da89d2027cad341ce651436c26c4cf18fbc32b259ef4980a"
         }
     },
     "homepage": "https://jdonohoo.github.io/vern-bot/",
