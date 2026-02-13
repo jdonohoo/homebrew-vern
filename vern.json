@@ -1,19 +1,19 @@
 {
-    "version": "2.5.1",
+    "version": "2.6.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jdonohoo/vern-bot/releases/download/v2.5.1/vern_windows_amd64.zip",
+            "url": "https://github.com/jdonohoo/vern-bot/releases/download/v2.6.0/vern_windows_amd64.zip",
             "bin": [
                 "vern.exe"
             ],
-            "hash": "cc2c6a4b8740ec3e9f5f57715c1d8b4223cb0458fd8b3a4215bd7b0025417b55"
+            "hash": "11431852a6ab3b8fd68e81836f62bd975e776985c760104582053fc7f0fb360f"
         },
         "arm64": {
-            "url": "https://github.com/jdonohoo/vern-bot/releases/download/v2.5.1/vern_windows_arm64.zip",
+            "url": "https://github.com/jdonohoo/vern-bot/releases/download/v2.6.0/vern_windows_arm64.zip",
             "bin": [
                 "vern.exe"
             ],
-            "hash": "5cad3925581c3ca93c115b3c3506addf3c59a88cf6000fb371083ad4eac6bc21"
+            "hash": "29657a656539b7a40a539ff0187f6600f6b9d8c6cb9e9ea12506f5eba209ed9a"
         }
     },
     "homepage": "https://jdonohoo.github.io/vern-bot/",
