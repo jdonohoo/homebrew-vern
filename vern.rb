@@ -5,20 +5,20 @@
 class Vern < Formula
   desc "16 AI personas, multi-LLM discovery pipelines, and VernHole councils. One idea in, battle-tested plan out."
   homepage "https://jdonohoo.github.io/vern-bot/"
-  version "2.8.1"
+  version "2.9.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.8.1/vern_darwin_amd64.tar.gz"
-      sha256 "5cfe29a5d3142a47b5b326f215ffa29b36d8b1bc57d12e4bfa8d0496ca770da1"
+      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.9.0/vern_darwin_amd64.tar.gz"
+      sha256 "bca08923c3e1ac5ca87ce34b0966549f8828b9e75ed08b99802eb29de0821966"
 
       def install
         bin.install "vern"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.8.1/vern_darwin_arm64.tar.gz"
-      sha256 "efae1c4f003d95898f5c6b9f89155855e0a793c85f4686f858480976e16379ae"
+      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.9.0/vern_darwin_arm64.tar.gz"
+      sha256 "4f20373ebe64089da17bdae79819aec1dfade626f03b634b4c3e9f24707d38a7"
 
       def install
         bin.install "vern"
@@ -28,15 +28,15 @@ class Vern < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.8.1/vern_linux_amd64.tar.gz"
-      sha256 "5ec25e3d990939728d1c8afa25c623dabc96181d3328f5f548a444d9007f72f3"
+      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.9.0/vern_linux_amd64.tar.gz"
+      sha256 "1c95f70873597f2a6498543957752db5b68e747de39e3fa094eb74347d60cfa1"
       def install
         bin.install "vern"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.8.1/vern_linux_arm64.tar.gz"
-      sha256 "3cd2241d20a172935e0d876bf5fdb09174fc406da11da4181db28ef21de3f3e1"
+      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.9.0/vern_linux_arm64.tar.gz"
+      sha256 "f19c1e7b9c5657b9e450a359ceaebc20746f7c5bf40740f2f6cff904a323c46a"
       def install
         bin.install "vern"
       end
