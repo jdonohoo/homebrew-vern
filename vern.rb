@@ -5,22 +5,22 @@
 class Vern < Formula
   desc "16 AI personas, multi-LLM discovery pipelines, and VernHole councils. One idea in, battle-tested plan out."
   homepage "https://jdonohoo.github.io/vern-bot/"
-  version "2.9.0"
+  version "2.9.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.9.0/vern_darwin_amd64.tar.gz"
-      sha256 "bca08923c3e1ac5ca87ce34b0966549f8828b9e75ed08b99802eb29de0821966"
+      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.9.1/vern_darwin_amd64.tar.gz"
+      sha256 "042e56b9d91529bee89aeca161883f2de9eb71bde121303d1a66805211582134"
 
-      def install
+      define_method(:install) do
         bin.install "vern"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.9.0/vern_darwin_arm64.tar.gz"
-      sha256 "4f20373ebe64089da17bdae79819aec1dfade626f03b634b4c3e9f24707d38a7"
+      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.9.1/vern_darwin_arm64.tar.gz"
+      sha256 "da171bc4eb0fd9cdeecee4c17fb94a1e369e3cd6f0b13cb1b1f4c5b0ba0b2c26"
 
-      def install
+      define_method(:install) do
         bin.install "vern"
       end
     end
@@ -28,16 +28,16 @@ class Vern < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.9.0/vern_linux_amd64.tar.gz"
-      sha256 "1c95f70873597f2a6498543957752db5b68e747de39e3fa094eb74347d60cfa1"
-      def install
+      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.9.1/vern_linux_amd64.tar.gz"
+      sha256 "ddd6d41f09c1c3caf9338c8294d3130073bc64e1703dd21752f3275bd44943f3"
+      define_method(:install) do
         bin.install "vern"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.9.0/vern_linux_arm64.tar.gz"
-      sha256 "f19c1e7b9c5657b9e450a359ceaebc20746f7c5bf40740f2f6cff904a323c46a"
-      def install
+      url "https://github.com/jdonohoo/vern-bot/releases/download/v2.9.1/vern_linux_arm64.tar.gz"
+      sha256 "007c63aa4d383719cbf701650ca1d71ddbc36f0c1611b17691ae7f4e62e780ce"
+      define_method(:install) do
         bin.install "vern"
       end
     end
